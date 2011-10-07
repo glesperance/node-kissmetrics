@@ -1,0 +1,35 @@
+{
+  "name": "kissmetrics"
+
+, "description": "Library for KISSmetrics REST API"
+
+, "keywords": ["kissmetrics", "kiss", "metrics","analytics", "REST", "API"]
+
+, "version": "0.0.1"
+
+, "homepage": "http://wavo.me"
+
+, "repository":
+  { "type" : "git"
+  , "url" : "git://github.com/glesperance/node-kissmetrics.git"
+  }
+
+, "author": "Gabriel Lesperance <gabriel@wavo.me> (glesperance.com / wavo.me)"
+
+, "main": "kissmetrics"
+
+, "engines": {
+    "node": ">= 0.4.12"
+  }
+  
+, "dependencies": {
+    "async"   : ">= 0.1.10"
+  , "request" : ">= 2.1.1"
+  }
+  
+, "licenses" :
+    [{
+      "type" : "MIT"
+    , "url" : "https://github.com/glesperance/node-kissmetrics/raw/master/LICENSE"
+    }]
+}
