@@ -8,7 +8,7 @@ Usage
 
 Basically, you simply create a new KM Client instance,
 
-    var kissmestrics = require('kissmetrics')
+    var kissmetrics = require('kissmetrics')
     var kmClient = new kissmetrics({ key: KM_KEY });
 
 and then issue commands using the provided methods,e.g.:
